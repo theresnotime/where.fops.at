@@ -1,0 +1,91 @@
+/*
+
+Theme: Monokai
+Author: Dakota Chambers (@dcchambers)
+License: MIT
+Version: 1.0
+Description: Monokai - your code editor's favorite color palette. Adapted from the Monokai color scheme by Wimer Hazenberg (@monokai).
+
+*/
+
+body {
+    background: #363537;
+    color: #f7f1ff;
+}
+
+main {
+    background: unset;
+}
+
+a:link,
+a:visited {
+    color: #f7f1ff;
+    text-decoration-color: #f7f1ff;
+    text-decoration: none;
+    border-bottom: 1px dotted #f7f1ff;
+}
+
+a:hover,
+a:active {
+    color: #a5a5a5;
+    text-decoration-color: #a5a5a5;
+    text-decoration: none;
+    border-bottom: 2px solid #a5a5a5;
+}
+
+#profile-picture {
+    border-radius: 100%;
+}
+
+#pronouns {
+    color: #a5a5a5;
+}
+
+#footer a:link,
+#footer a:visited,
+#footer a:hover,
+#footer a:active {
+    color: #a5a5a5;
+}
+
+/* Color for profile items list */
+.fa-li,
+.fas,
+.omg-icon,
+.omg-icon path {
+    color: #fa638d;
+    fill: #fa638d;
+    stroke: #fa638d;
+}
+
+/* Specific colors for individual icons */
+.fa-plug {
+    color: #fbe46e;
+}
+
+.fa-badge-check,
+.omg-verified {
+    color: #60d4e4 !important; /* important is needed to override inline style*/
+}
+
+.fa-briefcase {
+    color: #fb935a;
+}
+
+.fa-location-dot {
+    color: #948cdf;
+}
+
+/* Additional theming for OMGEX (https://github.com/litdevs/omgex) */
+
+.fa-clock {
+    color: #7dd792;
+}
+
+.fa-smile-plus {
+    color: #60d4e4;
+}
+
+.fa-birthday-cake {
+    color: #fa638d;
+}
