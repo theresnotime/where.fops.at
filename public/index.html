@@ -3,29 +3,87 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>where</title>
+        <title>Where's Sammy?</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="A list of events Sammy is attending (probably)" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Where's Sammy?" />
+        <meta
+            property="og:url"
+            content="https://where.fops.at" />
+        <meta
+            property="og:description"
+            content="A list of events Sammy is attending (probably)" />
+        <meta
+            property="og:image"
+            content="https://www.theresnotime.co.uk/img/fox_header.png" />
         <link href="css/base.css" rel="stylesheet">
         <link href="css/monokai.css" rel="stylesheet">
         <link href="css/overrides.css" rel="stylesheet">
+        <style>
+            .date {
+                font-weight: bold;
+            }
+            .location {
+                font-style: italic;
+            }
+        </style>
     </head>
     <body>
-        <h1>Currently..</h1>
+        <h2>Currently..</h2>
         <ul>
             <li>Nowhere <em>you</em> need to worry about.</li>
         </ul>
-        <h1>Soon..</h1>
+        <h2>Soon..</h2>
         <ul>
-            <li>GPN (2025)</li>
-            <li>Wikimania (2025)</li>
+            <li><span class="date">19th — 22nd June, 2025</span>
+                <ul>
+                    <li><a href="https://entropia.de/GPN23">GPN23</a> (<span class="location">Karlsruhe, Germany</span>)</li>
+                </ul>
+            </li>
+            <li><span class="date">6th — 9th August, 2025</span>
+                <ul>
+                    <li><a href="https://wikimania.wikimedia.org/wiki/2025:Wikimania">Wikimania 2025</a> (<span class="location">Nairobi, Kenya</span>)</li>
+                </ul>
+            </li>
         </ul>
-        <h1>Recently..</h1>
+        <h2>Recently..</h2>
         <ul>
-            <li>Wikimania (2024)</li>
-            <li>Wikimedia Hackathon (2024)</li>
+            <li><span class="date">3rd — 5th May, 2024</span>
+                <ul>
+                    <li><a href="https://www.mediawiki.org/wiki/Wikimedia_Hackathon_2024">Wikimedia Hackathon 2024</a> (<span class="location">Tallinn, Estonia</span>)</li>
+                </ul>
+            </li>
+            <li><span class="date">7th — 10th August, 2024</span>
+                <ul>
+                    <li><a href="https://wikimania.wikimedia.org/wiki/2024:Wikimania">Wikimania 2024</a> (<span class="location">Katowice, Poland</span>)</li>
+                </ul>
+            </li>
         </ul>
-        <h1>Not..</h1>
+        <h2>Not..</h2>
         <ul>
-            <li>Wikimedia Hackathon (2025)</li>
+            <li><span class="date">2nd — 4th May, 2025</span>
+                <ul>
+                    <li><a href="https://www.mediawiki.org/wiki/Wikimedia_Hackathon_2025">Wikimedia Hackathon 2025</a> (<span class="location">Istanbul, Turkey</span>)</li>
+                </ul>
+            </li>
         </ul>
+
+        <footer class="foot" id="footer">
+            <p class="pt-2">
+                Opinions expressed are my own,
+                <a href="https://www.theresnotime.co.uk/disclaimers">etc.</a>
+            </p>
+            <p>
+                <a
+                    rel="license"
+                    href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                    <img
+                        alt="Creative Commons Licence"
+                        style="border-width: 0"
+                        src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" />
+                </a>
+            </p>
+        </footer>
     </body>
 </html>
