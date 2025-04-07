@@ -1,0 +1,38 @@
+{
+    "soon": [
+        {
+            "date": "19th — 22nd June, 2025",
+            "name": "GPN23",
+            "URL": "https://entropia.de/GPN23",
+            "location": "Karlsruhe, Germany"
+        },
+        {
+            "date": "6th — 9th August, 2025",
+            "name": "Wikimania 2025",
+            "URL": "https://wikimania.wikimedia.org/wiki/2025:Wikimania",
+            "location": "Nairobi, Kenya"
+        }
+    ],
+    "recently": [
+        {
+            "date": "3rd — 5th May, 2024",
+            "name": "Wikimedia Hackathon 2024",
+            "URL": "https://www.mediawiki.org/wiki/Wikimedia_Hackathon_2024",
+            "location": "Tallinn, Estonia"
+        },
+        {
+            "date": "7th — 10th August, 2024",
+            "name": "Wikimania 2024",
+            "URL": "https://wikimania.wikimedia.org/wiki/2024:Wikimania",
+            "location": "Katowice, Poland"
+        }
+    ],
+    "not": [
+        {
+            "date": "2nd — 4th May, 2025",
+            "name": "Wikimedia Hackathon 2025",
+            "URL": "https://www.mediawiki.org/wiki/Wikimedia_Hackathon_2025",
+            "location": "Istanbul, Turkey"
+        }
+    ]
+}
