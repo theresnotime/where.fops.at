@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "test": "npm run validate-json",
+        "generate-events": "node scripts/generate.js",
+        "validate-json": "ajv validate -s public/events.schema.json -d public/events.json"
+    },
+    "devDependencies": {
+        "ajv-cli": "^5.0.0"
+    }
+}

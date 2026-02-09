@@ -1,0 +1,108 @@
+{
+    "events": {
+        "yes": [
+            {
+                "id": "40C3",
+                "name": "40C3",
+                "date": "TBC December, 2026",
+                "location": "Hamburg, Germany",
+                "url": "https://events.ccc.de/congress/2026/infos/"
+            },
+            {
+                "id": "Wikimania2026",
+                "name": "Wikimania 2026",
+                "date": "21st - 26th July, 2026",
+                "location": "Paris, France",
+                "url": "https://wikimania.wikimedia.org/wiki/2026:Wikimania"
+            },
+            {
+                "id": "GPN24",
+                "name": "GPN24",
+                "date": "4th - 7th June, 2026",
+                "location": "Karlsruhe, Germany",
+                "url": "https://entropia.de/GPN24"
+            },
+            {
+                "id": "EMF2026",
+                "name": "EMF Camp 2026",
+                "date": "30th May - 2nd June, 2026",
+                "location": "Eastnor, UK",
+                "url": "https://www.emfcamp.org"
+            },
+            {
+                "id": "WikimediaHackathon2026",
+                "name": "Wikimedia Hackathon 2026",
+                "date": "1st - 3rd May, 2026",
+                "location": "Milan, Italy",
+                "url": "https://www.mediawiki.org/wiki/Wikimedia_Hackathon_2026"
+            },
+            {
+                "id": "39C3",
+                "name": "39C3",
+                "date": "27th - 30th December, 2025",
+                "location": "Hamburg, Germany",
+                "url": "https://events.ccc.de/congress/2025/infos/"
+            },
+            {
+                "id": "BrightonTransPride2025",
+                "name": "Brighton Trans Pride 2025",
+                "date": "19th July, 2025",
+                "location": "Brighton, UK",
+                "url": "https://transpridebrighton.org/trans-pride-2025/"
+            },
+            {
+                "id": "GPN23",
+                "name": "GPN23",
+                "date": "19th - 22nd June, 2025",
+                "location": "Karlsruhe, Germany",
+                "url": "https://entropia.de/GPN23"
+            },
+            {
+                "id": "WikimediaHackathon2024",
+                "name": "Wikimedia Hackathon 2024",
+                "date": "3rd - 5th May, 2024",
+                "location": "Tallinn, Estonia",
+                "url": "https://www.mediawiki.org/wiki/Wikimedia_Hackathon_2024",
+                "archived": true
+            },
+            {
+                "id": "Wikimania2024",
+                "name": "Wikimania 2024",
+                "date": "7th - 10th August, 2024",
+                "location": "Katowice, Poland",
+                "url": "https://wikimania.wikimedia.org/wiki/2024:Wikimania",
+                "archived": true
+            }
+        ],
+        "no": [
+            {
+                "id": "EH2026",
+                "name": "EH2026",
+                "date": "3rd - 6th April, 2026",
+                "location": "Koblenz, Germany",
+                "url": "https://eh2026.de"
+            },
+            {
+                "id": "WHY2025",
+                "name": "WHY2025",
+                "date": "8th - 12th August, 2025",
+                "location": "Geestmerambacht, Netherlands",
+                "url": "https://why2025.org"
+            },
+            {
+                "id": "Wikimania2025",
+                "name": "Wikimania 2025",
+                "date": "6th - 9th August, 2025",
+                "location": "Nairobi, Kenya",
+                "url": "https://wikimania.wikimedia.org/wiki/2025:Wikimania"
+            },
+            {
+                "id": "LondonTransPride2025",
+                "name": "London Trans Pride 2025",
+                "date": "26th July, 2025",
+                "location": "London, UK",
+                "url": "https://londontranspride.org/"
+            }
+        ]
+    }
+}

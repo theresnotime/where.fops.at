@@ -1,0 +1,63 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Events Schema",
+    "description": "Schema for events.json",
+    "type": "object",
+    "required": ["events"],
+    "properties": {
+        "events": {
+            "type": "object",
+            "required": ["yes", "no"],
+            "properties": {
+                "yes": {
+                    "type": "array",
+                    "description": "Events that will be attended",
+                    "items": {
+                        "$ref": "#/definitions/event"
+                    }
+                },
+                "no": {
+                    "type": "array",
+                    "description": "Events that will not be attended",
+                    "items": {
+                        "$ref": "#/definitions/event"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "event": {
+            "type": "object",
+            "required": ["id", "name", "date", "location", "url"],
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "description": "Unique identifier for the event"
+                },
+                "name": {
+                    "type": "string",
+                    "description": "Display name of the event"
+                },
+                "date": {
+                    "type": "string",
+                    "description": "Date or date range of the event"
+                },
+                "location": {
+                    "type": "string",
+                    "description": "Physical location of the event"
+                },
+                "url": {
+                    "type": "string",
+                    "description": "URL to the event website or information page"
+                },
+                "archived": {
+                    "type": "boolean",
+                    "description": "Whether the event is archived/past",
+                    "default": false
+                }
+            },
+            "additionalProperties": false
+        }
+    }
+}
