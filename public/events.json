@@ -16,18 +16,18 @@
                 "url": "https://wikimania.wikimedia.org/wiki/2026:Wikimania"
             },
             {
+                "id": "EMF2026",
+                "name": "EMF Camp 2026",
+                "date": "16th - 19th July, 2026",
+                "location": "Eastnor, UK",
+                "url": "https://www.emfcamp.org"
+            },
+            {
                 "id": "GPN24",
                 "name": "GPN24",
                 "date": "4th - 7th June, 2026",
                 "location": "Karlsruhe, Germany",
                 "url": "https://entropia.de/GPN24"
-            },
-            {
-                "id": "EMF2026",
-                "name": "EMF Camp 2026",
-                "date": "30th May - 2nd June, 2026",
-                "location": "Eastnor, UK",
-                "url": "https://www.emfcamp.org"
             },
             {
                 "id": "WikimediaHackathon2026",
